@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   static ThemeData lightTheme = ThemeData(
+    hintColor: AppColors.disableColor,
+    hoverColor: AppColors.disableColor,
     appBarTheme: AppBarTheme(
       titleTextStyle: AppTextStyles.styleS22W400(color: AppColors.darkThemeMainColor),
       backgroundColor: AppColors.lightThemeBgColor,
@@ -38,6 +40,8 @@ class AppTheme {
     ),
   );
   static ThemeData darkTheme = ThemeData(
+    hintColor: AppColors.darkThemeMainColor,
+    hoverColor: AppColors.darkThemeTextColor,
     appBarTheme: AppBarTheme(
       titleTextStyle: AppTextStyles.styleS22W400(color: AppColors.darkThemeMainColor),
       backgroundColor: AppColors.darkThemeBgColor,
